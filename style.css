@@ -1,0 +1,568 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: "Public Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.start {
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    height: 60px;
+    padding: 5px;
+    width: 100%;
+    z-index: 1px;
+    position: absolute;
+    top: 0;
+    background-color: white;
+    padding: 10px;
+}
+
+.li ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    color: grey;
+}
+
+.request1 {
+    border-radius: 30px;
+    width: 150px;
+    padding: 0px;
+    border: none;
+    background: linear-gradient(90deg, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    color: white;
+}
+.request1:hover{
+    cursor: pointer;
+    background: linear-gradient(90deg, hsl(192, 70%, 51%), hsl(136, 65%, 51%) );
+}
+
+.request2 {
+    background: linear-gradient(90deg, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+}
+.request2:hover{
+    cursor: pointer;
+    background: linear-gradient(90deg, hsl(192, 70%, 51%), hsl(136, 65%, 51%) );
+}
+
+.next {
+    background-color: rgb(240, 239, 239);
+    display: flex;
+    margin: auto;
+    width: 100%;
+    align-items: center;
+
+}
+
+.next img {
+    width: 50%;
+}
+
+.text {
+    padding: 20px;
+    margin-left: 60px;
+}
+
+.text .p1 {
+    font-size: 30px;
+    color: hsl(233, 26%, 24%);
+}
+
+.text .p2 {
+    width: 70%;
+    text-align: left;
+    margin-top: 20px;
+    color: grey;
+}
+
+span {
+    display: block;
+    color: hsl(233, 26%, 24%);
+}
+.up li:hover{
+    cursor: pointer;
+    color: greenyellow;
+    
+}
+
+.request2 {
+    border: none;
+    background-color: hsl(136, 65%, 51%);
+    color: white;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 30px;
+    width: 150px;
+}
+
+.easy {
+    background-color: rgb(218, 217, 217);
+
+    padding: 20px;
+}
+
+.easy2 {
+    margin: auto;
+    width: 90%;
+}
+
+.easy .pp {
+    font-size: 30px;
+    color: hsl(233, 26%, 24%);
+    margin-top: 70px;
+}
+
+.easy .pp1 {
+    color: grey;
+    margin-top: 20px;
+    width: 40%;
+}
+
+.grid {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+}
+
+.grid1 .line {
+    color: hsl(233, 26%, 24%);
+    margin-top: 20px;
+}
+
+.grid1 .line2 {
+    color: grey;
+    margin-top: 20px;
+}
+
+.grid2 .line {
+    color: hsl(233, 26%, 24%);
+    margin-top: 20px;
+}
+
+.grid2 .line2 {
+    color: grey;
+    margin-top: 20px;
+}
+
+.grid3 .line {
+    color: hsl(233, 26%, 24%);
+    margin-top: 20px;
+}
+
+.grid3 .line2 {
+    color: grey;
+    margin-top: 20px;
+}
+
+.grid4 .line {
+    color: hsl(233, 26%, 24%);
+    margin-top: 20px;
+}
+
+.grid4 .line2 {
+    color: grey;
+    margin-top: 20px;
+}
+
+.thirdb {
+    width: 100%;
+    margin: auto;
+    background-color: rgb(250, 249, 249);
+}
+
+.third {
+    margin: auto;
+    width: 90%;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.third p {
+    font-size: 35px;
+    color: hsl(233, 26%, 24%);
+}
+
+.pictures {
+    margin: auto;
+    width: 90%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    padding: 20px;
+}
+
+.images {
+    background-color: #fff;
+    width: 100%;
+}
+
+.images p {
+    padding: 10px;
+}
+
+.img2 p {
+    padding: 10px;
+}
+
+.img3 p {
+    padding: 10px;
+}
+
+.img4 p {
+    padding: 10px;
+}
+
+.images img {
+    width: 100%;
+    height: 28.5vh;
+}
+
+.img2 {
+    background-color: #fff;
+    width: 100%;
+}
+
+.img2 img {
+    width: 100%;
+}
+
+.img3 {
+    background-color: #fff;
+    width: 100%;
+}
+
+.img3 img {
+    width: 100%;
+}
+
+.img4 {
+    background-color: #fff;
+    width: 100%;
+}
+
+.img4 img {
+    width: 100%;
+}
+
+.nav1 ul {
+    color: #fff;
+    list-style: none;
+    line-height: 30px;
+}
+
+.navs {
+    background-color: hsl(233, 26%, 24%);
+    display: flex;
+    gap: 150px;
+    padding: 20px;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+}
+
+.bt li:hover {
+    cursor: pointer;
+    color: hsl(136, 65%, 51%);
+}
+
+.nav2 ul {
+    color: #fff;
+    list-style: none;
+    line-height: 30px;
+}
+
+.handles {
+    margin-top: 40px;
+}
+
+svg {
+    fill: #fff;
+}
+
+svg:hover {
+    cursor: pointer;
+    fill: hsl(136, 65%, 51%);
+
+}
+
+.mock {
+    background-image: url("./easybank-landing-page-master/images/bg-intro-desktop.svg");
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: cover;
+
+
+}
+
+.mock img {
+    width: 100%;
+    margin-left: 100px;
+    margin-top: -50px;
+
+}
+
+.navigation {
+    margin: auto;
+    width: 90%;
+    display: flex;
+    gap: 150px;
+}
+
+.btn3 p {
+    color: rgb(205, 204, 204);
+    margin-top: 20px;
+    width: 100%;
+    font-size: 12px;
+}
+
+.btn3 {
+    text-align: right;
+}
+
+.ham {
+    display: none;
+}
+
+.up {
+    display: flex;
+}
+
+#checkbox {
+    display: none;
+}
+.img4 .p1{
+    font-size: 12px;
+    color: grey;
+}
+.img3 .p1{
+    font-size: 12px;
+    color: grey;
+}
+.img2 .p1{
+    font-size: 12px;
+    color: grey;
+}
+.images .p1{
+    font-size: 12px;
+    color: grey;
+}
+.images .p2{
+    color: grey;
+    font-size: 15px;
+}
+.img2 .p2{
+    color: grey;
+    font-size: 15px;
+}
+.img3 .p2{
+    color: grey;
+    font-size: 15px;
+}
+.img4 .p2{
+    color: grey;
+    font-size: 15px;
+}
+.images .p3{
+   font-weight: 600;
+    font-size: 20px;
+}
+.img2 .p3{
+   font-weight: 600;
+    font-size: 20px;
+}
+.img3 .p3{
+   font-weight: 600;
+    font-size: 20px;
+}
+.img4 .p3{
+   font-weight: 600;
+    font-size: 20px;
+}
+
+@media(max-width: 768px) {
+    * {
+        overflow-x: visible;
+    }
+
+    .next {
+        background-color: rgb(240, 239, 239);
+        display: flex;
+        flex-direction: column-reverse;
+        margin: auto;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+
+    }
+
+    .mock {
+        background-image: url("./easybank-landing-page-master/images/bg-intro-mobile.svg");
+        background-repeat: no-repeat;
+        background-position: top left;
+        background-size: cover;
+    }
+
+    .mock img {
+        width: 100%;
+        margin-left: 0px;
+        margin-top: -50px;
+
+    }
+
+    .text .p2 {
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+        color: grey;
+    }
+
+    .easy2 {
+        margin: auto;
+        width: 100%;
+        text-align: center;
+    }
+
+    .easy .pp1 {
+        color: grey;
+        margin-top: 20px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .grid {
+        margin-top: 50px;
+        display: block;
+        grid-template-columns: auto auto auto auto;
+        gap: 10px;
+    }
+
+    .third {
+        margin: auto;
+        width: 100%;
+        padding: 20px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .pictures {
+        margin: auto;
+        width: 90%;
+        display: block;
+        grid-template-columns: auto auto auto auto;
+        gap: 10px;
+        padding: 20px;
+
+    }
+
+    .images {
+        background-color: #fff;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .img2 {
+        background-color: #fff;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .img3 {
+        background-color: #fff;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .img4 {
+        background-color: #fff;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .navigation {
+        margin: auto;
+        width: 90%;
+        display: block;
+        gap: 180px;
+        text-align: center;
+    }
+
+    .btn3 {
+        text-align: center;
+    }
+
+    .up {
+        display: none;
+        position: relative;
+        width: 100%;
+        /* background-color: #fff; */
+    }
+
+    .request1 {
+        display: none;
+    }
+
+    .start {
+        display: flex;
+        margin: auto;
+        justify-content: space-between;
+        height: 40px;
+        padding: 5px;
+        width: 100%;
+        z-index: 1px;
+        position: absolute;
+        top: 0;
+        background-color: white;
+        padding: 10px 20px;
+    }
+
+    .close {
+        display: none;
+    }
+
+    #checkbox:checked~.close {
+        display: block;
+    }
+
+    #checkbox:checked~.up {
+        display: block;
+    }
+
+    #checkbox {
+        display: none;
+    }
+
+    .li ul {
+        display: block;
+        gap: 20px;
+        list-style: none;
+        color: #000;
+        position: absolute;
+        right: -0.5rem;
+        top: 2rem;
+        border-radius: 10px;
+
+
+    }
+
+    .li ul li {
+        background-color: #fff;
+        line-height: 50px;
+        text-align: center;
+        text-transform: capitalize;
+        width: 90vw;
+        box-shadow: 1000px 100px 1px 1px #878787, 1px 100px 100px 1px #9a9a9a;
+
+    }
+
+    .ham {
+        display: block;
+    }
+
+}
